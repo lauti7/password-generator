@@ -13,3 +13,11 @@ Typescript, React JS, TailwindCSS, and [Password strength checked - zxcvbn](http
 - By clicking the `Generate password` button, the user can see a password being generated
 - Click a `Copy to clipboard` button which will save the password to the clipboard
 - See the password strength
+
+## TODOs:
+
+- [] Add tests.
+- [] Add ESLint and Preetier.
+- [] Turns into PWA.
+- [] Add "last generated passwords".
+- [] User can tag a generated password and save in browser local storage.
