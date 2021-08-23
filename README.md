@@ -16,8 +16,8 @@ Typescript, React JS, TailwindCSS, and [Password strength checked - zxcvbn](http
 
 ## TODOs:
 
-- [] Add tests.
-- [] Add ESLint and Preetier.
-- [] Turns into PWA.
-- [] Add "last generated passwords".
-- [] User can tag a generated password and save in browser local storage.
+- [ ] Add tests.
+- [ ] Add ESLint and Preetier.
+- [ ] Turns into PWA.
+- [ ] Add "last generated passwords".
+- [ ] User can tag a generated password and save in browser local storage.
