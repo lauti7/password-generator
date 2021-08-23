@@ -1,0 +1,122 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #383838;
+  color: rgb(231, 231, 231);
+  font-family: "Ubuntu Mono", monospace;
+  height: 100vh;
+  width: 100%;
+}
+
+#app {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tooltip {
+  background-color: rgb(56, 56, 56);
+}
+
+.password-strength {
+  @apply w-full h-full rounded-md bg-gray-400;
+}
+
+.password-strength-0 {
+  width: 20%;
+  @apply bg-red-700;
+}
+
+.password-strength-1 {
+  width: 40%;
+  @apply bg-red-500;
+}
+
+.password-strength-2 {
+  width: 60%;
+  @apply bg-yellow-600;
+}
+
+.password-strength-3 {
+  width: 80%;
+  @apply bg-yellow-400;
+}
+
+.password-strength-4 {
+  width: 100%;
+  @apply bg-green-600;
+}
+
+.strength-0 {
+  @apply text-red-700;
+}
+
+.strength-1 {
+  @apply text-red-500;
+}
+
+.strength-2 {
+  @apply text-yellow-600;
+}
+
+.strength-3 {
+  @apply text-yellow-400;
+}
+
+.strength-4 {
+  @apply text-green-600;
+}
+
+.fade-in {
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -webkit-animation: fadein 2s;
+  -o-animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
